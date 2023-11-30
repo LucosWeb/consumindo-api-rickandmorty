@@ -1,0 +1,71 @@
+#content{
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    color: blueviolet;
+    font-size: 1rem;
+    align-items: center;
+    justify-content: center;
+}
+
+
+
+#BtnGO {
+background-color: rgb(134, 51, 145);
+width: 10rem;
+height: 3rem;
+border-radius: 7px;
+border-style: none;
+color: #fff;
+letter-spacing: 0.2em;
+opacity: 0.8;
+transition: 0.5s;
+box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+
+#BtnGO:hover{
+    opacity: 1;
+    cursor: pointer;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#characterId{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+    width: 10rem;
+    height: 3rem; 
+    border-style: none;
+    border-radius: 2px;
+    font-size:1rem;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+#characterId:focus{
+    border-style: none;
+    background-color: rgb(253, 253, 253);
+}
+
+.buscar{
+text-align: center;
+font-family: verdana;
+font-weight: bold;
+letter-spacing: 0.5rem;
+font-size: 2rem;
+}
+
+.lucos{
+font-family: verdana;
+color: blueviolet;
+}
+
+.lucos:hover{
+    font-family: verdana;
+    color: rgb(54, 0, 104);
+    cursor: pointer;
+}
